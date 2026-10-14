@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity() {
         btnTemaRMR = findViewById(R.id.btnTema)
         pbCarga = findViewById(R.id.pbCarga)
 
-        // Asignacion de clics a los botones
         btnRegistrar.setOnClickListener {
             registrar()
         }
