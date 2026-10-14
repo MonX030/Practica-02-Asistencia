@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mi paleta oscura: D = 4 -->
+    <color name="primarioRMR">#8FD69A</color>
+    <color name="acentoRMR">#F0BE5E</color>
+    <color name="fondoRMR">#15202B</color>
+    <color name="textoRMR">#F4F6F7</color>
+    <color name="textoBotonRMR">#15202B</color>
+</resources>

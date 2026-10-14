@@ -1,9 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+
     <style name="Base.Theme.Practica2" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primarioRMR</item>
+        <item name="colorSecondary">@color/acentoRMR</item>
+        <item name="android:statusBarColor">@color/primarioRMR</item>
     </style>
 
     <style name="Theme.Practica2" parent="Base.Theme.Practica2" />
+
+    <style name="BotonRMR">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/primarioRMR</item>
+        <item name="android:textColor">@color/textoBotonRMR</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+    <style name="CampoRMR">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textoRMR</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
 </resources>
